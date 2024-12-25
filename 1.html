@@ -1,0 +1,194 @@
+<html>
+    <link rel="shortcut icon" type="x-icon" href="R.png">
+    
+    <title>pheadarothbook</title>
+   
+<head>
+    
+    <style>
+
+    ul{
+        list-style-type: none;
+        background-color: #ff00c3;
+        padding:0;
+        margin:0;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    ul li a{
+        display: block;
+        padding: 20px 25px;
+        color: white;
+        text-decoration: none;
+        
+        
+    }
+    ul.dropdown li{
+        display: block;
+    }
+    ul.dropdown{
+        display: none;
+        position: absolute;
+        width: 100%;
+    }
+    ul li:hover ul.dropdown{
+        display: block;
+        
+    }
+    ul li a:hover{
+        background-color: #5f645d;
+        text-decoration:underline;
+    }
+
+    .wrap{
+        width: 1500px;
+        margin: 0 auto;
+        
+        
+        }
+    .banner-img{
+        width: 1500px;
+        
+        }
+    .caption { 
+        color: #d10193;
+        }
+    .box{
+        width: 275px; 
+        border: 1px solid #000;
+        float: left;
+        margin:5px;
+        text-align: center;
+        padding: 5px;
+        border-radius: 10px;
+        
+        }
+    .box-img{
+        width: 275px;
+        
+        
+        
+    }
+    .title{
+        color: #d10193;
+    }
+    .align-left{
+        text-align: left;
+    }
+    .box a{
+        background-color: #d10193;
+        width: 275px;
+        display: block;
+        padding: 15px 0;
+        color: #fcfbfb;
+        text-decoration: none;
+        border-radius: 10px;
+        text-decoration:underline;
+    }
+
+
+    .hover a:hover{
+    background-color:#d10193;
+    text-decoration: underline;
+    }
+    .picture{
+        border-radius: 10px;
+        
+        
+    }
+
+    .search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    }
+
+    .search-container input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 60%;
+    }
+
+    .search-container button {
+    padding: 10px;
+    background-color: #d10193;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    }
+
+    .search-container button:hover {
+    background-color: #5f645d;
+    }
+    .listproduct.item img{
+    width: 90%;
+    filter: drop-shadow(0 50px 20px black);
+    }
+
+    .listproduct{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    }
+    .listproduct.item{
+    background-color: #eeeee6;
+    }
+    .container{
+        text-align: center;
+    }
+    .image{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+   
+
+
+</style>
+</head>
+<body>
+    
+    <div class="wrap">
+        <nav>
+        <ul style="text-align: center;">
+          <li><a href="http://127.0.0.1:5500/index.html.html">Home</a></li>
+          <li><a href="https://www.goodreads.com/list/show/28021.Cambodia">Book</a>
+        
+          </li>
+          <li><a href="https://en.wikipedia.org/wiki/Book">About us</a></li>
+          <li><a href="https://t.me/phea_daroth">Contact</a></li>
+         </ul>
+      </nav>
+      <div>
+      <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search for Book...">
+      <button onclick="searchItem()">Search</button>
+      
+  </div>
+  <div class="container">
+    <img src="1.jpg" alt=""  style="border-radius: 10px; text-align: center;"  > 
+</di>
+<h2 style="color: red;  ">
+    About the book
+</h2>
+<p style="font-size: 25px;">
+    A book is a medium for recording information in the form of writing or images. It is typically
+     composed of many pages, bound together and protected by a cover.<br>The pages have words written in them and may include illustrations
+</p>
+<a href="http://127.0.0.1:5500/index.html.html" class="image" style="padding: 10px; background-color: #d10193; border: 1px solid rgb(0, 0, 0); padding-bottom: center; border-radius: 5px; margin-top: 30px; margin-bottom: 30px; color: #fcfbfb;"> Back Now</a>
+
+  
+      
+
+
+   
+    
+</body>
+
+</html>
